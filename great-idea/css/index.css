@@ -46,7 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -62,19 +61,18 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 .container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
-
 /* header */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 header nav {
   /* width: 691px; */
   display: flex;
@@ -105,6 +103,7 @@ header .logo {
   flex-direction: row;
   justify-content: space-between; 
 }
+
 .cta .cta-text {
   display: flex;
   width: 50%;
@@ -126,6 +125,8 @@ header .logo {
   cursor: pointer;
   width: 178px;
 }
+
+.
 
 .cta .cta-text button:hover {
   background: black;
@@ -149,7 +150,6 @@ header .logo {
   flex-direction: row;
   justify-content: space-between;
 }
-
 
 .main-content .middle-img {
   margin-top: 45px;
