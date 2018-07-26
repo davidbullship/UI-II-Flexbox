@@ -61,11 +61,13 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
 .container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
+
 /* header */
 header {
   display: flex;
@@ -110,7 +112,6 @@ header .logo {
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
-  /* padding: 0px 75px; */
   flex-direction: column;
   align-items: center;
 }
@@ -136,20 +137,24 @@ header .logo {
   margin-top: 69px;
   width: 45%;
 }
+
 .services-header-img {
   display: flex;
   margin: 22px 0 30px 0;
 }
+
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
+
 article.services h2 {
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .main-content .top-content {
   display: flex;
   flex-direction: row;
@@ -160,9 +165,11 @@ article.services h2 {
   margin-top: 45px;
   width: 100%;
 }
+
 article.services {
   line-height: 1.3;
 }
+
 section.service-descriptions {
   display: flex;
   flex-direction: row;
@@ -177,28 +184,39 @@ section.service-descriptions {
   padding: 20px;
   margin-bottom: 40px;
 }
+
 article.services p {
   margin-bottom: 40px;
 }
+
 .main-content .bottom-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 40px 12px 0 0;
 }
+
 button.learn-more {
   border: 1px solid black;
   background-color: white;
   border-radius: 4px;
   margin-top: 20px;
   padding: 10px 40px 10px 40px;
-  font-size: 11px;
+  text-decoration: none;
 }
+
+button.learn-more a {
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
+}
+
 .line {
   border-top: 1px solid black;
   width: 100%;
   margin-bottom: 40px;
 }
+
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
@@ -208,20 +226,25 @@ button.learn-more {
 .contact p {
   margin: 20px 0;
 }
+
 .bottom-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .column-one {
   width: 400px;
 }
+
 .bottom-content ul {
   list-style: square inside;
 }
+
 .bottom-content li {
   margin-top: 8px;
 }
+
 footer {
   margin: 32px 0;
   text-align: center;
