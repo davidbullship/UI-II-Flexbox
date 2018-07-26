@@ -196,7 +196,8 @@ button.learn-more {
 }
 .line {
   border-top: 1px solid black;
-  margin: ;
+  width: 100%;
+  margin-bottom: 40px;
 }
 .contact {
   margin-top: 57px;
@@ -207,9 +208,23 @@ button.learn-more {
 .contact p {
   margin: 20px 0;
 }
-
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column-one {
+  width: 400px;
+}
+.bottom-content ul {
+  list-style: square inside;
+}
+.bottom-content li {
+  margin-top: 8px;
+}
 footer {
   margin: 32px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  flex-direction: column;
 }
