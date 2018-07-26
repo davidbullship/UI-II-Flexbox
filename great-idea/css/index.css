@@ -249,6 +249,34 @@ button.learn-more a {
   margin-top: 8px;
 }
 
+/* about us page */
+article.image {
+  display: flex;
+  flex-direction: row;
+}
+article.about {
+  margin: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: stretch;
+}
+.about-article {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.about-article h1 {
+  font-size: 50px;
+  text-align: center
+}
+.about-article p {
+  line-height: 1.8;
+}
+img .right-accent {
+  width: 40%;
+}
 /* horizontal border line */
 .line {
   border-top: 1px solid black;
